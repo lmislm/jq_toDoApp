@@ -30,10 +30,12 @@ h1 {
 input,
 .task-item,
 .task-detail-mask,
+textarea,
 button{
     border-radius: .3em;
     padding: .8em;
 }
+textarea,
 input[type=text], input[type=date]{
     display: block;
     width: 100%;
@@ -43,6 +45,12 @@ input[type=text], input[type=date]{
     -moz-box-shadow: inset .1em .1em rgba(0, 0, 0, .1);
     box-shadow: inset .1em .1em rgba(0, 0, 0, .1);
 }
+textarea {
+    max-height: 8em;
+    min-height: 1em;
+    margin: 1em auto;
+}
+textarea:hover,
 input[type=text]:hover,
 input[type=date]:hover,
 input[type=text]:focus,
@@ -76,6 +84,7 @@ button{
     -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
     box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
 }
+
 .add-task [type=submit]：hover {
     background: #5fb9e4;
 }
@@ -97,7 +106,15 @@ button{
     padding: 1em;
     bottom: 0;
     right: 0;
+    width:50%;
+    height: 100%;
+    color: #333333;
     background: #fff;
+}
+.task-detail .container {
+    padding: 1em;
+    font-weight: 900;
+    cursor: pointer;
 }
 .task-detail-mask {
     position: absolute;
@@ -106,4 +123,10 @@ button{
     right: 0;
     left: 0;
     background: rgba(30, 30, 30, .6 );
+}
+
+.task-detail-mask,
+.task-detail {
+    position: absolute;
+    display: none;
 }
