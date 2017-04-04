@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>toDOApp</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
 </head>
 <body>
 <div class="container">
+    <h1>toDo</h1>
     <div class="add-task">
-        <input type="text">
-        <button>submit</button>
+        <input type="text" placeholder="记得早睡">
+        <button type="submit">submit</button>
     </div>
     <div class="task-list">
         <div class="task-item">
@@ -19,18 +21,40 @@
             <span>detail</span>
             <!--//<div class="task-content">item content 1</div>-->
         </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+            <!--//<div class="task-content">item content 1</div>-->
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+            <!--//<div class="task-content">item content 1</div>-->
+        </div>
+        <div class="task-item">
+            <span><input type="checkbox"></span>
+            <span class="task-content">item content 1</span>
+            <span>delete</span>
+            <span>detail</span>
+            <!--//<div class="task-content">item content 1</div>-->
+        </div>
     </div>
+    <div class="task-detail-mask"></div>
     <div class="task-detail">
-        <div class="content">< /div>
-            <div>
-                <div class="desc">
-
-                </div>
+        <div class="content">
+        </div>
+        <div>
+            <div class="desc">
             </div>
-            <div class="remind">
-                <input type="date" >
-                <button type="submit">submit</button>
-            </div>
+        </div>
+        <div class="remind">
+            <input type="date"  >
+            <button type="submit">submit</button>
+        </div>
     </div>
 </div>
 <script src="node_modules/jquery/dist/jquery.js"></script>
