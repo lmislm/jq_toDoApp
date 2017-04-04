@@ -9,10 +9,16 @@
 <body>
 <div class="container">
     <h1>toDo</h1>
-    <div class="add-task">
-        <input type="text" placeholder="记得早睡">
+    <form class="add-task">
+        <!--细化布局之后添加Task第一步 ,注意form-->
+        <input name="content"
+               type="text"
+               placeholder="记得早睡"
+               autofocus
+               autocomplete="off"
+        >
         <button type="submit">submit</button>
-    </div>
+    </form>
     <div class="task-list">
         <div class="task-item">
             <span><input type="checkbox"></span>
@@ -60,6 +66,7 @@
     </div>
 </div>
 <script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/.1.0.4@store.js/store.js"></script>
 <script src="js/base.js"></script>
 </body>
 </html>
