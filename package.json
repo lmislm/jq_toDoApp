@@ -1,0 +1,22 @@
+{
+  "name": "toapp",
+  "version": "1.0.0",
+  "description": "jQ_toapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmislm/jq_toDoApp.git"
+  },
+  "author": "baskervilles,lmislm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmislm/jq_toDoApp/issues"
+  },
+  "homepage": "https://github.com/lmislm/jq_toDoApp#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
