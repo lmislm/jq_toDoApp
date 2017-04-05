@@ -16,9 +16,10 @@ body{
 .container{
     max-width: 35em;
     margin: 0 auto;
-    width: 900%;
+    width: 90%;
     /*padding: 5em 5em;*/
     position: relative;
+    padding: 0 .3em;
 }
 h1 {
    text-align: center;
@@ -129,4 +130,16 @@ button{
 .task-detail-mask,
 .task-detail {
     display: none;
+}
+/*详细删除样式*/
+.action {
+    color: #777;
+    font-size: 1em;
+}
+/*总样式向右浮动*/
+.floatR {
+    float: right;
+}
+.task-content {
+    margin-left: .4em;
 }
