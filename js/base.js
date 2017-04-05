@@ -12,6 +12,7 @@
         init();
 
     $form_add_task.on('submit',function (e) {
+        var new_task = {};
         // 禁用默认行为
         e.preventDefault();
         // 获取新task的值
@@ -23,21 +24,26 @@
         if(add_task(new_task)){
             render_task_list();
         }
+        console.log('new_task.content',new_task.content);
     })
      function add_task(new_task) {
+        console.log('task_list',task_list);
          task_list.push(new_task)
          // 更新localstoreage
          store.set('task_list',task_list);
+         // store.clear();
          return true;
-        console.log('task_list',task_list);
      }
     function init() {
         task_list = store.get('task_list')  || [];
+        if(task_list.length)
+            render_task_list();
     }
     
     function render_task_list() {
         // console.log('1',1);
         var $task_list = $('.task-list');
+        $task_list.html('');
         for(var i = 0;i < task_list.length; i++){
             var $task = render_task_tpl(task_list[i]);
             $task_list.append($task);
