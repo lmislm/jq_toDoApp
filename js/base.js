@@ -85,14 +85,14 @@
            '</div>' +
                '<div>' +
                   '<input style="display: none;" type="text" name="content" value="' + item.content + '"></inpu>' +
-              '</div>'+
+              '</div>' +
            '<div>' +
            '<div class="desc">' +
            '<textarea name="desc" > '+ item.desc + '</textarea>' +
            '</div>' +
            '</div>' +
            '<div class="remind">' +
-           '<input name="remind_date" type="date">' +
+           '<input name="remind_date" type="date" value="' +item.remind_date+ '">' +
            '</div>' +
             '<div><button type="submit">更新</button></div>' +
        '</form>';
