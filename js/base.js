@@ -48,6 +48,12 @@
 
     function listen_task_detail() {
         // console.log('$task_delete_trigger',$task_delete_trigger);
+            var index;
+        $('.task-item').on('dblclick',function () {
+            index = $(this).data('index');
+            show_task_detail(index)
+            // console.log('1',1)
+        })
         $task_detail_trigger.on('click',function () {
             var $this = $(this)
             var $item = $this.parent().parent();
@@ -56,14 +62,16 @@
             // console.log('index',index);
         })
     }
-    /*查看task详情*/
+    /*查看task详情,*/
     function show_task_detail(index) {
+        /*生成详情模板*/
         render_task_detail(index);
         current_index = index;
+        /*显示详情模板mask（默认隐藏*/
         $task_detail.show();
         $task_detail_mask.show();
     }
-    /*更新function的方法*/
+    /*，更新Task更新function的方法*/
     function update_task(index, data) {
         if(!index || !task_list[index])
             return ;
@@ -76,8 +84,7 @@
         if(index === undefined || !task_list[index])
             return;
         var item = task_list[index];
-
-        console.log('item',item);
+        // console.log('item',item);
         var tpl =
         '<form>' +
             '<div class="content">' +
@@ -88,7 +95,7 @@
               '</div>' +
            '<div>' +
            '<div class="desc">' +
-           '<textarea name="desc" > '+ item.desc + '</textarea>' +
+           '<textarea name="desc" > '+ (item.desc || '') + '</textarea>' +
            '</div>' +
            '</div>' +
            '<div class="remind">' +
@@ -96,14 +103,16 @@
            '</div>' +
             '<div><button type="submit">更新</button></div>' +
        '</form>';
-
+        /*替换旧模板*/
         $task_detail.html(null);
+        /*选中其中from元素，之后会使用监听事件*/
         $task_detail.html(tpl);
         $update_form = $task_detail.find('form');
         // console.log('$update_form', $update_form);
+        /*选中显示Task内容元素*/
         $task_detail_content = $update_form.find('.content');
         $task_detail_content_input = $update_form.find('[name=content]');
-
+        /*双击内容元素显示input，隐藏自己*/
         $task_detail_content.on('dblclick', function () {
             // console.log('1',1);
             $task_detail_content_input.show();
@@ -116,6 +125,7 @@
             e.preventDefault();
             // console.log('1',1);
             var data = {};
+            /*获取表单中各个input的值*/
             data.content = $(this).find('[name = content]').val();
             data.desc = $(this).find('[name = desc]').val();
             data.remind_date = $(this).find('[name = remind_date]').val();
@@ -124,6 +134,7 @@
             update_task(index, data);
         })
     }
+    /*隐藏Task详情*/
     function hide_task_detail() {
         $task_detail.hide();
         $task_detail_mask.hide();
@@ -131,7 +142,6 @@
 
     function listen_task_delete() {
         // 添加事件之后，要监听删除特定元素
-
         $task_delete_trigger.on('click',function () {
             var $this = $(this);
             var $item = $this.parent().parent();
@@ -144,6 +154,7 @@
     }
 
      function add_task(new_task) {
+        /*添加文本域的空字符串*/
         // console.log('task_list',task_list);
          task_list.push(new_task)
          // 更新localstoreage
@@ -180,7 +191,8 @@
         for(var i = 0;i < task_list.length; i++){
             // 渲染多条的时候传入index i
             var $task = render_task_item(task_list[i], i);
-            $task_list.append($task);
+            // $task_list.append($task);
+            $task_list.prepend($task);
         }
         $task_delete_trigger  = $('.action.delete')
         $task_detail_trigger = $('.action.detail')
