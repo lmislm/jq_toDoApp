@@ -31,11 +31,11 @@
       <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="177">
+              <caret line="94" column="76" lean-forward="false" selection-start-line="94" selection-start-column="76" selection-end-line="94" selection-end-column="76" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1491480359810" expanded="true" signature="2470:2484" ph="..." />
+                <marker date="1491481131221" expanded="true" signature="2470:2484" ph="..." />
               </folding>
             </state>
           </provider>
@@ -293,7 +293,7 @@
       <updated>1491288313594</updated>
       <workItem from="1491288317389" duration="24309000" />
       <workItem from="1491381280337" duration="17557000" />
-      <workItem from="1491471568088" duration="6592000" />
+      <workItem from="1491471568088" duration="7534000" />
     </task>
     <task id="LOCAL-00001" summary="敲定目录结构，npm引入jq">
       <created>1491292361306</created>
@@ -372,11 +372,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491475312114</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="详细中信息的保存">
+      <created>1491480406489</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1491480406489</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48458000" />
+    <option name="totallyTimeSpent" value="49400000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -389,7 +396,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24905661" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276515" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30819672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30819672" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -436,7 +443,9 @@
     <MESSAGE value="弹出日期层" />
     <MESSAGE value="title写入状态" />
     <MESSAGE value="bug:应该 update_task(index, data);不是item应该传入data到render" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug:应该 update_task(index, data);不是item应该传入data到render" />
+    <MESSAGE value="详细中信息的保存" />
+    <MESSAGE value="修复date信息不保存" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复date信息不保存" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -473,7 +482,7 @@
           <caret line="68" column="55" lean-forward="false" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1491480359810" expanded="true" signature="2470:2484" ph="..." />
+            <marker date="1491481131221" expanded="true" signature="2470:2484" ph="..." />
           </folding>
         </state>
       </provider>
@@ -508,7 +517,7 @@
           <caret line="49" column="57" lean-forward="false" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1491480359810" expanded="true" signature="2470:2484" ph="..." />
+            <marker date="1491481131221" expanded="true" signature="2470:2484" ph="..." />
           </folding>
         </state>
       </provider>
@@ -554,11 +563,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="177">
+          <caret line="94" column="76" lean-forward="false" selection-start-line="94" selection-start-column="76" selection-end-line="94" selection-end-column="76" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1491480359810" expanded="true" signature="2470:2484" ph="..." />
+            <marker date="1491481131221" expanded="true" signature="2470:2484" ph="..." />
           </folding>
         </state>
       </provider>

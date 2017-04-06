@@ -92,7 +92,7 @@
            '</div>' +
            '</div>' +
            '<div class="remind">' +
-           '<input name="remind_date" type="date" value="' +item.remind_date+ '">' +
+           '<input name="remind_date" type="date" value="'+ item.remind_date +'">' +
            '</div>' +
             '<div><button type="submit">更新</button></div>' +
        '</form>';
@@ -118,7 +118,7 @@
             var data = {};
             data.content = $(this).find('[name = content]').val();
             data.desc = $(this).find('[name = desc]').val();
-            data.remaind_date = $(this).find('[name = remind_date]').val();
+            data.remind_date = $(this).find('[name = remind_date]').val();
             // console.log('data',data);
             /*写入数据到localStorge里面*/
             update_task(index, data);
