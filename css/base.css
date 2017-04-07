@@ -143,3 +143,17 @@ button{
 .task-content {
     margin-left: .4em;
 }
+
+.task-item.completed {
+    color: #aaaaaa;
+    background: rgba(255, 255, 255, .2);
+}
+.task-item.completed:after {
+    content: " ";
+    height: .1em;
+    width: 100%;
+    position: relative;
+    top: -.6em;
+    display: block;
+    background: #aaaaaa;
+}
