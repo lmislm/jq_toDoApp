@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6781413-b2bf-4064-9323-a13e8f8320b0" name="Default" comment="基本内容">
+    <list default="true" id="c6781413-b2bf-4064-9323-a13e8f8320b0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +28,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="147" column="19" lean-forward="true" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+            <state relative-caret-position="165">
+              <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -89,8 +88,8 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$PROJECT_DIR$/css/base.css" />
       </list>
     </option>
   </component>
@@ -104,8 +103,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="337" />
-    <option name="y" value="6" />
+    <option name="x" value="113" />
+    <option name="y" value="79" />
     <option name="width" value="714" />
     <option name="height" value="668" />
   </component>
@@ -303,7 +302,7 @@
       <workItem from="1491288317389" duration="24309000" />
       <workItem from="1491381280337" duration="17557000" />
       <workItem from="1491471568088" duration="12412000" />
-      <workItem from="1491561042454" duration="11491000" />
+      <workItem from="1491561042454" duration="12188000" />
     </task>
     <task id="LOCAL-00001" summary="敲定目录结构，npm引入jq">
       <created>1491292361306</created>
@@ -403,16 +402,23 @@
       <option name="project" value="LOCAL" />
       <updated>1491484927331</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="添加完成任务画删除线，否则无">
+      <created>1491572600909</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1491572600909</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65769000" />
+    <option name="totallyTimeSpent" value="66466000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="337" y="6" width="714" height="668" extended-state="0" />
+    <frame x="113" y="79" width="714" height="668" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="290" width="177" height="415" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="290" width="177" height="415" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -471,7 +477,8 @@
     <MESSAGE value="详细中信息的保存" />
     <MESSAGE value="修复date信息不保存" />
     <MESSAGE value="基本内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本内容" />
+    <MESSAGE value="添加完成任务画删除线，否则无" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加完成任务画删除线，否则无" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -608,14 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="147" column="19" lean-forward="true" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -623,6 +622,14 @@
           <folding>
             <marker date="1491572499155" expanded="true" signature="2817:2831" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
