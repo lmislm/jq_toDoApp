@@ -28,9 +28,22 @@
         ;
 
         init();
-
+        pop('abc');
     $form_add_task.on('submit',on_add_task_form_submit)
     $task_detail_mask.on('click',hide_task_detail)
+
+    function pop(arg) {
+        if(!arg){
+            console.error('pop title is required');
+        }
+        var conf = {};
+        if(typeof arg == 'string'){
+            conf.title = arg ;
+        }else {
+            conf = $.extend(conf,arg);
+        }
+        console.log('conf',conf);
+    }
 
     function listen_msg_event() {
         $msg_confirm.on('click',function () {
