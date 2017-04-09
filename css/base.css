@@ -79,7 +79,7 @@ button{
     width:15%;
     background: #46b1e4;
 }
-
+.anchor,
 .add-task [type=submit],
 .task-item{
     -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
@@ -171,6 +171,7 @@ button{
 }
 .anchor {
     cursor: pointer;
+    background: #46b1e4;
 }
 
 .alerter {
