@@ -110,6 +110,7 @@ button{
     right: 0;
     width:50%;
     height: 80%;
+    overflow: auto;
     color: #333333;
     background: #fff;
 }
@@ -159,4 +160,21 @@ button{
     background: #aaaaaa;
     float: right;
     clear: both;
+}
+
+.msg {
+    display: none;
+    text-align: center;
+    background: #ffe264;
+    padding: 1em;
+    color: #333333;
+}
+.anchor {
+    cursor: pointer;
+}
+
+.alerter {
+    /*opacity: 0;*/
+    width: 0;
+    height: 0;
 }

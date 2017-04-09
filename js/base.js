@@ -21,13 +21,22 @@
         , $task_detail_content
         , $task_detail_content_input
         , $checkbox_complete
+        , $msg = $('.msg')
+        , $msg_content = $msg.find('.msg-content')
+        , $msg_confirm = $msg.find('.confirmed')
+        , $alerter = $('.alerter')
         ;
 
         init();
 
-
     $form_add_task.on('submit',on_add_task_form_submit)
     $task_detail_mask.on('click',hide_task_detail)
+
+    function listen_msg_event() {
+        $msg_confirm.on('click',function () {
+            hide_msg();
+        })
+    }
 
     function on_add_task_form_submit(e) {
         var new_task = {}, $input;
@@ -101,8 +110,9 @@
            '<textarea name="desc" > '+ (item.desc || '') + '</textarea>' +
            '</div>' +
            '</div>' +
-           '<div class="remind">' +
-           '<input name="remind_date" type="date" value="'+ item.remind_date +'">' +
+           '<div class="remind input-item">' +
+            '<label>提醒时间</label>'+
+           '<input class="datetime"  name="remind_date" type="text" value="'+ (item.remind_date || '') +'">' +
            '</div>' +
             '<div><button type="submit">更新</button></div>' +
        '</form>';
@@ -110,6 +120,8 @@
         $task_detail.html(null);
         /*选中其中from元素，之后会使用监听事件*/
         $task_detail.html(tpl);
+        // $('.datatime').datetimepicker();
+        $('.datetime').datetimepicker();
         $update_form = $task_detail.find('form');
         // console.log('$update_form', $update_form);
         /*选中显示Task内容元素*/
@@ -183,8 +195,43 @@
 
     function init() {
         task_list = store.get('task_list')  || [];
+        listen_msg_event();
         if(task_list.length)
             render_task_list();
+        task_remind_check();
+    }
+
+    function task_remind_check() {
+            // show_msg('fasfsf');
+        var current_timestamp;
+        var itl = setInterval(function () {
+            for(var i = 0; i < task_list.length; i++){
+                var item = get(i), task_timestamp;
+                // console.log('item',item);
+                if(!item || !item.remind_date || item.informed)
+                    continue;
+                current_timestamp = (new Date()).getTime();
+                // console.log('current_timetamp',current_timestamp);
+                task_timestamp = (new Date(item.remind_date)).getTime();
+                // console.log('current_timetamp, task_timestamp',current_timestamp,task_timestamp);
+                if(current_timestamp - task_timestamp >= 1){
+                    update_task(i, {informed:true});
+                    show_msg(item.content);
+                }
+            }
+        },300);
+
+    }
+
+    function show_msg(msg) {
+        if(!msg) return;
+        $msg_content.html(msg);
+        $alerter.get(0).play();
+        $msg.show();
+        // console.log('1',1);
+    } function hide_msg() {
+        $msg.hide();
+        // console.log('1',1);
     }
 
     function render_task_list() {

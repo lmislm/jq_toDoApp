@@ -18,6 +18,7 @@
   "homepage": "https://github.com/lmislm/jq_toDoApp#readme",
   "dependencies": {
     "jquery": "^3.2.1",
+    "jquery-datetimepicker": "^2.5.4",
     "normalize.css": "^6.0.0",
     "store": "^2.0.4"
   }

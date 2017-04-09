@@ -2,8 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6781413-b2bf-4064-9323-a13e8f8320b0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alert.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/screen/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/screen/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/screen/3.1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/screen/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/screen/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/screen/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/screen/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/.npminstall.done" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/CHANGE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/js/php-date-formatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/js/php-date-formatter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.1.3.4@php-date-formatter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/.npminstall.done" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/build/jquery.datetimepicker.full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/build/jquery.datetimepicker.full.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/build/jquery.datetimepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/build/jquery.datetimepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/datetimepicker.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/doc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/jquery.datetimepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/jquery.datetimepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/jquery.datetimepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/tests/input_in_container_fixed_to_bottom_of_viewport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/tests/input_in_container_fixed_to_top_of_viewport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.3.1.13@jquery-mousewheel/.npminstall.done" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.3.1.13@jquery-mousewheel/ChangeLog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.3.1.13@jquery-mousewheel/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.3.1.13@jquery-mousewheel/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.3.1.13@jquery-mousewheel/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.3.1.13@jquery-mousewheel/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/base.js" afterPath="$PROJECT_DIR$/js/base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +67,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+            <state relative-caret-position="284">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -31,10 +77,14 @@
       <file leaf-file-name="base.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="205" column="9" lean-forward="true" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
+            <state relative-caret-position="276">
+              <caret line="204" column="34" lean-forward="false" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="34" />
               <folding>
-                <marker date="1491572499155" expanded="true" signature="2817:2831" ph="..." />
+                <element signature="e#5504#5766#0" expanded="false" />
+                <element signature="e#5838#5915#0" expanded="false" />
+                <element signature="e#7542#8653#0" expanded="false" />
+                <element signature="e#9481#10047#0" expanded="false" />
+                <marker date="1491706213809" expanded="true" signature="3100:3114" ph="..." />
               </folding>
             </state>
           </provider>
@@ -43,8 +93,8 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+            <state relative-caret-position="179">
+              <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -67,7 +117,6 @@
       <find>$task_delete_trigger</find>
       <find>show</find>
       <find>store.get</find>
-      <find>remind</find>
       <find>checkbox</find>
       <find>render_task</find>
       <find>render_task_list(</find>
@@ -75,6 +124,13 @@
       <find>attr</find>
       <find>complete</find>
       <find>checkbox_complete</find>
+      <find>remind</find>
+      <find>remind_check</find>
+      <find>console.log</find>
+      <find>task_remind_check</find>
+      <find>on_</find>
+      <find>play</find>
+      <find>show_msg</find>
     </findStrings>
     <replaceStrings>
       <replace>$task_delete_trigger</replace>
@@ -87,8 +143,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/base.js" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
       </list>
     </option>
@@ -103,10 +159,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="113" />
-    <option name="y" value="79" />
-    <option name="width" value="714" />
-    <option name="height" value="668" />
+    <option name="x" value="313" />
+    <option name="y" value="102" />
+    <option name="width" value="849" />
+    <option name="height" value="595" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,20 +190,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jq_toDoApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jq_toDoApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jq_toDoApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -195,6 +237,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\html_web_work\jq_toDoApp" />
       <recent name="E:\html_web_work\jq_toDoApp\css" />
     </key>
   </component>
@@ -302,7 +345,8 @@
       <workItem from="1491288317389" duration="24309000" />
       <workItem from="1491381280337" duration="17557000" />
       <workItem from="1491471568088" duration="12412000" />
-      <workItem from="1491561042454" duration="12188000" />
+      <workItem from="1491561042454" duration="15705000" />
+      <workItem from="1491697554933" duration="9286000" />
     </task>
     <task id="LOCAL-00001" summary="敲定目录结构，npm引入jq">
       <created>1491292361306</created>
@@ -409,26 +453,33 @@
       <option name="project" value="LOCAL" />
       <updated>1491572600909</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="细化已完成任务的小细节">
+      <created>1491573295646</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1491573295646</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66466000" />
+    <option name="totallyTimeSpent" value="79269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="79" width="714" height="668" extended-state="0" />
+    <frame x="313" y="102" width="849" height="595" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2662722" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="290" width="177" height="415" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2379778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="720" y="290" width="177" height="415" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771537" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5925373" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42012578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276515" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37265918" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.029962547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.039045554" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -478,13 +529,44 @@
     <MESSAGE value="修复date信息不保存" />
     <MESSAGE value="基本内容" />
     <MESSAGE value="添加完成任务画删除线，否则无" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加完成任务画删除线，否则无" />
+    <MESSAGE value="细化已完成任务的小细节" />
+    <option name="LAST_COMMIT_MESSAGE" value="细化已完成任务的小细节" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="95" lean-forward="false" selection-start-line="6" selection-start-column="95" selection-end-line="6" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3129">
+          <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4431">
+          <caret line="211" column="27" lean-forward="false" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+          <folding>
+            <element signature="e#5504#5766#0" expanded="false" />
+            <element signature="e#5838#5915#0" expanded="false" />
+            <element signature="e#7542#8653#0" expanded="false" />
+            <element signature="e#9481#10047#0" expanded="false" />
+            <marker date="1491706213809" expanded="true" signature="3100:3114" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
@@ -506,7 +588,11 @@
         <state relative-caret-position="4578">
           <caret line="218" column="66" lean-forward="false" selection-start-line="218" selection-start-column="66" selection-end-line="218" selection-end-column="66" />
           <folding>
-            <marker date="1491572499155" expanded="true" signature="2817:2831" ph="..." />
+            <element signature="e#5504#5766#0" expanded="false" />
+            <element signature="e#5838#5915#0" expanded="false" />
+            <element signature="e#7542#8653#0" expanded="false" />
+            <element signature="e#9481#10047#0" expanded="false" />
+            <marker date="1491706213809" expanded="true" signature="3100:3114" ph="..." />
           </folding>
         </state>
       </provider>
@@ -539,7 +625,11 @@
         <state relative-caret-position="1428">
           <caret line="68" column="55" lean-forward="false" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
           <folding>
-            <marker date="1491572499155" expanded="true" signature="2817:2831" ph="..." />
+            <element signature="e#5504#5766#0" expanded="false" />
+            <element signature="e#5838#5915#0" expanded="false" />
+            <element signature="e#7542#8653#0" expanded="false" />
+            <element signature="e#9481#10047#0" expanded="false" />
+            <marker date="1491706213809" expanded="true" signature="3100:3114" ph="..." />
           </folding>
         </state>
       </provider>
@@ -572,7 +662,11 @@
         <state relative-caret-position="1029">
           <caret line="49" column="57" lean-forward="false" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
           <folding>
-            <marker date="1491572499155" expanded="true" signature="2817:2831" ph="..." />
+            <element signature="e#5504#5766#0" expanded="false" />
+            <element signature="e#5838#5915#0" expanded="false" />
+            <element signature="e#7542#8653#0" expanded="false" />
+            <element signature="e#9481#10047#0" expanded="false" />
+            <marker date="1491706213809" expanded="true" signature="3100:3114" ph="..." />
           </folding>
         </state>
       </provider>
@@ -592,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="82" column="4" lean-forward="false" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/jquery/dist/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -607,28 +694,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/.2.5.4@jquery-datetimepicker/build/jquery.datetimepicker.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1385">
+          <caret line="85" column="4" lean-forward="false" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+        <state relative-caret-position="284">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="205" column="9" lean-forward="true" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
+        <state relative-caret-position="276">
+          <caret line="204" column="34" lean-forward="false" selection-start-line="204" selection-start-column="33" selection-end-line="204" selection-end-column="34" />
           <folding>
-            <marker date="1491572499155" expanded="true" signature="2817:2831" ph="..." />
+            <element signature="e#5504#5766#0" expanded="false" />
+            <element signature="e#5838#5915#0" expanded="false" />
+            <element signature="e#7542#8653#0" expanded="false" />
+            <element signature="e#9481#10047#0" expanded="false" />
+            <marker date="1491706213809" expanded="true" signature="3100:3114" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="149" column="16" lean-forward="false" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+        <state relative-caret-position="179">
+          <caret line="112" column="16" lean-forward="true" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
           <folding />
         </state>
       </provider>
