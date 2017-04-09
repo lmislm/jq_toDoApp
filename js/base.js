@@ -146,7 +146,7 @@
             ,   move_y
             ;
             move_x = (window_width - box_width) / 2;
-            move_y = ((window_height - box_height) / 2) - 20;
+            move_y = ((window_height - box_height) / 2) - 150;
 
             $box.css({
                 left:move_x,
